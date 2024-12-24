@@ -13,8 +13,9 @@
 
 // Your code goes here...
 
-
-
+function getDiffTwentySeven(num) {
+  return num > 27 ? (num - 27) * 2 : 27 - num
+}
 
 /** =========================
  * Create a sumOfTwoIntegers(num1, num2) function to compute and return the sum of the two given integers
@@ -25,7 +26,9 @@
 
 // Your code goes here
 
-
+function sumOfTwoIntegers(num1, num2) {
+  return num1 === num2 ? (num1 + num2) * 3 : num1 + num2
+}
 
 
 /** =========================
@@ -39,7 +42,9 @@
 
 // Your code goes here...
 
-
+const isOneOfThemOrTheirSumIsFourty = (num1, num2) => {
+  return num1 === 40 || num2 === 40 || num1 + num2 === 40
+}
 
 
 // === TEST YOURSELF ===
